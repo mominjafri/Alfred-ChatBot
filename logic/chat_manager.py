@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
+GREETING = "Master Bruce has asked me to assist you, what would you like me to call you?"
 
 class ChatManager:
     def __init__(self, api_key):
@@ -20,7 +20,7 @@ class ChatManager:
         ]
 
     def get_greeting(self):
-        return "Master Bruce has asked me to assist you, what would you like me to call you?"
+        return GREETING
 
     def handle_input(self, user_text):
         if self.awaiting_name:
