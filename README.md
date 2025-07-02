@@ -23,5 +23,43 @@ It leverages OpenAI’s GPT API to generate intelligent, context-aware responses
 git clone https://github.com/yourusername/AlfredChatbot.git
 cd AlfredChatbot
 
+```
+
+### 2️⃣ Set up a virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+
+```
+
+### 3️⃣ Install the dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
+🚀 4️⃣ Usage
+Run the chatbot from your terminal:
+
+```bash
+python alfred.py
+
+```
+
+Then start chatting directly in the console.
+
+## 💬 Example Session
+
+```plaintext
+You: Hello Alfred!
+Alfred: Hello there! How can I assist you today?
+
+You: Can you give me a motivational quote?
+Alfred: "The only limit to our realization of tomorrow is our doubts of today." — Franklin D. Roosevelt
+
+
+
 
 
